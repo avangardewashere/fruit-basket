@@ -1,0 +1,15 @@
+.container{
+	width:390rem;
+	font-size:12rem;
+	display:flex;
+	flex-direction: column;
+	gap:10rem;
+
+	input{
+		width:345rem;
+		margin-inline:auto;
+		border-radius: 10rem;
+		border:1rem #919bc9 solid;
+		padding:4rem;
+	}
+}
