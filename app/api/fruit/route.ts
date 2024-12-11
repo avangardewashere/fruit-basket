@@ -26,3 +26,10 @@ export async function POST(req: Request) {
     );
   }
 }
+
+export async function GET(){
+	await connectMongoDB();
+	const fruits = await Fruits.find();
+	return NextResponse.json({fruits});
+	
+}

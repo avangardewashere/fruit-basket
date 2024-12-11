@@ -4,7 +4,9 @@ import style from "./index.module.scss";
 import appleImg from "@/assets/img/apple.png";
 import Image from "next/image";
 import Link from "next/link";
-import Card from "../card";
+import CardList from "../CardList";
+ 
+ 
 
 const Homepage = memo(function Homepage() {
   return (
@@ -12,7 +14,7 @@ const Homepage = memo(function Homepage() {
       <div>Homepage</div>
 
 
-      <Card />
+      <CardList />
      
       <button>
         <Link href={"/addFruit"}>Add a fruit</Link>
