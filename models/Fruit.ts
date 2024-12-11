@@ -27,6 +27,6 @@ const FruitSchema:Schema<IFruit> = new Schema({
 },{timestamps:true})
 
 
-const Fruit = model<IFruit>('Fruit',FruitSchema)
+const Fruit =mongoose.models.Fruit ||  mongoose.model<IFruit>('Fruit',FruitSchema)
 
 export default Fruit
