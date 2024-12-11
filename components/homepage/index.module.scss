@@ -44,6 +44,8 @@
     }
 
 	.actions{
+		display:flex;
+		gap:4rem;
 		button:last-child{
 			background:#2B292A;
 			color:#fff;
